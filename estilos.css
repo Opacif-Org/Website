@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'open sans';
+  font-family: 'Montserrat', sans-serif;
   background: var(--fondo);
 }
 
@@ -226,7 +226,7 @@ nav .enlaces a:hover{
 }
 
 .texto-team{
-  height: 20%;
+  height: auto;
   width: 100%;
   padding: var(--espacios) 0;
 }
