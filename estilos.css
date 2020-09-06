@@ -108,6 +108,8 @@ nav{
   color:#fff;
 }
 
+.nav1>div>div>img{ height:80px;filter: brightness(50000%);}
+
 .nav2{
   background: var(--fondo);
   height:100px;
@@ -214,7 +216,7 @@ nav .enlaces a:hover{
 }
 
 .people{
-  height: 80%;
+  height:auto;
 }
 
 .content-card img{
