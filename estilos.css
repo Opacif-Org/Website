@@ -1,7 +1,4 @@
 :root{
-  --color1: rgb(156, 0, 0);
-  --color2: rgba(23, 149, 180, 0.877);
-  --color3: rgb(255, 218, 6);
   --fondo: #f2f2f2;
   --titulos: 33px;
   --margenes: 60px;
@@ -108,7 +105,7 @@ nav{
   color:#fff;
 }
 
-.nav1>div>div>img{ height:80px;filter: brightness(50000%);}
+.nav1>div>div>img{ height:80px;filter: brightness(10000%);}
 
 .nav2{
   background: var(--fondo);
@@ -170,6 +167,21 @@ nav .enlaces a:hover{
 
 /* Main */
 
+.about-container {
+  margin:auto;
+  padding: var(--margenes) 0;
+  color: #fff;
+  width: 90%;
+  max-width: 1000px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.about-container>div>div>img {
+  width: 50%;
+}
+
+
 .contenedor{
   margin:auto;
   padding: var(--margenes) 0;
@@ -208,6 +220,11 @@ nav .enlaces a:hover{
   flex-wrap: wrap;
 }
 
+.card>div>div>img {
+  margin-top: 12px;
+  width: 50%;
+}
+
 .content-card{
   width: 31%;
   box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
@@ -235,6 +252,24 @@ nav .enlaces a:hover{
   background: url(img/teclado.jpg);
   height: auto;
 }
+
+.button-container {
+  margin-top:5%;
+}
+
+.boton_1{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+  }
+  .boton_1:hover{
+    color: #fff;
+    background-color: #27BDB2;
+  }
 
 .servicios{
   display: flex;
