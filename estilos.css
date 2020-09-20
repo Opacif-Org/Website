@@ -291,11 +291,18 @@ nav .enlaces a:hover{
   text-align: center;
 }
 
+.ourObjetives {
+  margin-top: 100px;
+}
+
 .botones-work{
+  background-color: red;
   overflow: hidden;
 }
 
 .botones-work li{
+  background-color: blue;
+  width: 100px;
   display: inline-block;
   text-align: center;
   margin-left: var(--espacios);
@@ -349,6 +356,26 @@ nav .enlaces a:hover{
 .textos-work h4{
   line-height: 30px;
   font-weight: 300;
+}
+
+.community {
+  margin:auto;
+  padding: var(--margenes) 0;
+  width: 90%;
+  max-width: 1000px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.community>div>div>img {
+  width: 50%;
+}
+
+.child-community{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  flex-wrap: wrap;
 }
 
 /* Footer */
